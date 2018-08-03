@@ -1,0 +1,107 @@
+<aura:component implements="force:appHostable,lightning:actionOverride,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global" >
+    
+  <div class="slds-grid">
+      <div class="slds-col">Column 1
+      <article class="slds-card">
+      <div class="slds-card__header slds-grid">
+        <header class="slds-media slds-media--center slds-has-flexi-truncate">
+          <div class="slds-media__body">
+            <h2><span class="slds-text-heading--small">Expense Details</span></h2>
+          </div>
+        </header>
+        <div class="slds-no-flex">
+            <lightning:button label="Edit" onclick="{!c.handleEdit}"/>
+        </div>
+      </div>
+      <div class="slds-card__body">(expense details go here)</div>
+    </article>
+          <div  style="padding: 0.5rem; background: rgb(22, 50, 92);">
+  <div class="slds-text-color_inverse-weak">The quick brown fox jumps over the lazy dog.</div>
+</div>
+          
+          <div class="slds-grid slds-wrap">
+  					<div class="slds-size_1-of-4">
+    							<div class=" slds-text-align_left slds-m-around_x-small ">Name</div>
+ 					 </div>
+  				<div class="slds-size_1-of-4">
+   						 <div class=" slds-text-align_left slds-m-around_x-small">Venkatesh fgdgdfg df gdf gdf gdf gdf gdf gdf gdf gdf gdf gd fgdf gdf gdf gdf gdf g</div>
+ 				 </div>
+              <div class="slds-size_1-of-4">
+    					<div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">Last Name</div>
+ 				 </div>
+              <div class="slds-size_1-of-4">
+   						 <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">Raveendran</div>
+              </div>
+          </div>
+          
+                   <div class="slds-grid slds-wrap">
+  
+                              <div class="slds-size_1-of-4">
+                    <div class=" slds-text-align_left slds-m-around_x-small ">Name1</div>
+                  </div>
+                  <div class="slds-size_1-of-4">
+                    <div class=" slds-text-align_left slds-m-around_x-small">Venkatesh fgdgdfg df gdf gdf gdf gdf gdf gdf gdf gdf gdf gd fgdf gdf gdf gdf gdf g</div>
+                  </div>
+                 <div class="slds-size_1-of-4">
+                				<div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">Last Name1</div>
+              </div>
+              <div class="slds-size_1-of-4">
+   				 <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">Raveendran</div>
+  				</div>
+          </div>
+          
+          <div class="slds-grid slds-wrap">
+  
+                              <div class="slds-size_1-of-4">
+                    <div class=" slds-text-align_left slds-m-around_x-small ">Name2</div>
+                  </div>
+                  <div class="slds-size_1-of-4">
+                    <div class=" slds-text-align_left slds-m-around_x-small">Venkatesh fgdgdfg df gdf gdf 2gdf gdf gdf gdf gdf gdf gdf gd fgdf gdf gdf gdf gdf g</div>
+                  </div>
+                 <div class="slds-size_1-of-4">
+                				<div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">Last Name2</div>
+              </div>
+              <div class="slds-size_1-of-4">
+   				 <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">Raveendran2</div>
+  				</div>
+          </div>
+   
+                <div class="slds-grid slds-wrap">
+  
+                              <div class="slds-size_1-of-4">
+                    <div class=" slds-text-align_left slds-m-around_x-small ">Name3</div>
+                  </div>
+                  <div class="slds-size_1-of-4">
+                    <div class=" slds-text-align_left slds-m-around_x-small">Venkatesh fgdgdfg df gdf gdf 2gdf gdf gdf gdf gdf gdf gdf gd fgdf gdf gdf gdf gdf g</div>
+                  </div>
+                 <div class="slds-size_1-of-4">
+                				<div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">Last Name2</div>
+              </div>
+              <div class="slds-size_1-of-4">
+   				 <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">Raveendran23</div>
+  				</div>
+          </div>
+            <div  style="padding: 0.5rem; background: rgb(22, 50, 92);">
+  <div class="slds-text-color_inverse-weak">The quick brown fox jumps over the lazy dog.</div>
+</div>
+           <div class="slds-grid slds-wrap">
+  
+                              <div class="slds-size_1-of-4">
+                    <div class=" slds-text-align_left slds-m-around_x-small ">Name3</div>
+                  </div>
+                  <div class="slds-size_1-of-4">
+                    <div class=" slds-text-align_left slds-m-around_x-small">Venkatesh fgdgdfg df gdf gdf 2gdf gdf gdf gdf gdf gdf gdf gd fgdf gdf gdf gdf gdf g</div>
+                  </div>
+                 <div class="slds-size_1-of-4">
+                				<div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">Last Name2</div>
+              </div>
+              <div class="slds-size_1-of-4">
+   				 <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">Raveendran23</div>
+  				</div>
+          </div>
+     
+      </div>
+      
+    </div>
+	
+</aura:component>

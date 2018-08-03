@@ -1,0 +1,7 @@
+<apex:page showHeader="false" controller="VFLoginFlowController">
+  <h1>You are in VF Login Flow</h1>
+  <apex:form >
+  <apex:commandButton action="{!FinishLoginFlowHome}" value="Finish and Go to Home"/>
+  <apex:commandButton action="{!FinishLoginFlowStartUrl}" value="Finish and Go to StartUrl"/>
+  </apex:form>
+</apex:page>

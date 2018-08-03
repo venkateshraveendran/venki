@@ -1,0 +1,5 @@
+<aura:component implements="force:lightningQuickAction" >
+    <aura:attribute name="listviewid" type="string"  />
+    <aura:handler name="init" value="{!this}" action="{!c.clickAdd}" />
+	
+</aura:component>
